@@ -3,8 +3,8 @@ class Grub {
     this.age = 0;
     this.color = 'pink';
     this.food = 'jelly';
-    this.eat = function () {
-      return 'Mmmmmmmmm jelly';
-    }
+  }
+  eat() {
+    'Mmmmmmmmm jelly';
   }
 };

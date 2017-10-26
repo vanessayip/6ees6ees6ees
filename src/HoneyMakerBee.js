@@ -4,11 +4,11 @@ class HoneyMakerBee extends Bee{
     this.age = 10;
     this.job = 'make honey';
     this.honeyPot = 0;
-    this.makeHoney = function () {
-      return this.honeyPot += 1;
-    }
-    this.giveHoney = function () {
-      return this.honeyPot -= 1;
-    }
+  }
+  makeHoney() {
+    this.honeyPot += 1;
+  }
+  giveHoney() {
+    this.honeyPot -= 1;
   }
 };
